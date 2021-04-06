@@ -3,15 +3,15 @@
   <context id="">
     <application id="org.gnome.FileRoller.desktop" open-window-count="0" score="1" last-seen="1617345471"/>
     <application id="gnome-control-center.desktop" open-window-count="0" score="28" last-seen="1617345679"/>
-    <application id="org.gnome.Nautilus.desktop" open-window-count="1" score="109" last-seen="1617699740"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="1" score="109" last-seen="1617701683"/>
     <application id="update-manager.desktop" open-window-count="0" score="19" last-seen="1617345318"/>
-    <application id="code.desktop" open-window-count="0" score="36" last-seen="1617697920"/>
-    <application id="google-chrome.desktop" open-window-count="1" score="4169" last-seen="1617699968"/>
+    <application id="code.desktop" open-window-count="0" score="39" last-seen="1617701769"/>
+    <application id="google-chrome.desktop" open-window-count="1" score="4331" last-seen="1617702196"/>
     <application id="org.gnome.gedit.desktop" open-window-count="0" score="11" last-seen="1617697842"/>
     <application id="anydesk.desktop" open-window-count="0" score="71" last-seen="1617699946"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="1435" last-seen="1617699897"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="1561" last-seen="1617702200"/>
     <application id="skypeforlinux.desktop" open-window-count="1" score="438" last-seen="1617699973"/>
     <application id="thunderbird.desktop" open-window-count="1" score="32" last-seen="1617694107"/>
-    <application id="org.gnome.Software.desktop" open-window-count="0" score="0" last-seen="1617604743"/>
+    <application id="org.gnome.Software.desktop" open-window-count="0" score="3" last-seen="1617701885"/>
   </context>
 </application-state>
