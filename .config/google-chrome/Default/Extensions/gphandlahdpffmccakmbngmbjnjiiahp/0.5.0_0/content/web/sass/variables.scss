@@ -1,0 +1,30 @@
+$bg: #3b3b3b;
+$gray: #444444;
+$dark-gray: #323232;
+
+@mixin button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+
+  &[disabled] {
+    background: none;
+  }
+
+  &:hover {
+    background-image: none;
+    box-shadow: none;
+    border: none;
+    background-color: rgba($dark-gray, .5);
+
+    &[disabled] {
+      background: none;
+    }
+  }
+  &.toggled {
+    background-image: none;
+    box-shadow: none;
+    border: none;
+    background-color: $dark-gray;
+  }
+}

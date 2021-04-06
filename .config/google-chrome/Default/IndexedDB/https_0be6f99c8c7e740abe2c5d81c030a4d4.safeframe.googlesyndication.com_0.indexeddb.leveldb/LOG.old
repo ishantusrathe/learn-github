@@ -1,0 +1,8 @@
+2021/04/05-11:31:04.791 9f0 Reusing MANIFEST /home/neosoft/.config/google-chrome/Default/IndexedDB/https_0be6f99c8c7e740abe2c5d81c030a4d4.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/05-11:31:04.791 9f0 Recovering log #4
+2021/04/05-11:31:04.791 9f0 Reusing old log /home/neosoft/.config/google-chrome/Default/IndexedDB/https_0be6f99c8c7e740abe2c5d81c030a4d4.safeframe.googlesyndication.com_0.indexeddb.leveldb/000004.log 
+2021/04/05-11:32:41.054 9f0 Level-0 table #8: started
+2021/04/05-11:32:41.054 9f0 Level-0 table #8: 0 bytes OK
+2021/04/05-11:32:41.056 9f0 Delete type=0 #4
+2021/04/05-11:32:41.057 9f0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/05-11:32:41.057 9f0 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

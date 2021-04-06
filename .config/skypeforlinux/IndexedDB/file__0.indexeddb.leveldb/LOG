@@ -1,0 +1,39 @@
+2021/04/06-09:17:32.428 8ae Reusing MANIFEST /home/neosoft/.config/skypeforlinux/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/04/06-09:17:32.428 8ae Recovering log #11
+2021/04/06-09:17:32.433 8ae Reusing old log /home/neosoft/.config/skypeforlinux/IndexedDB/file__0.indexeddb.leveldb/000011.log 
+2021/04/06-11:21:53.375 1d30 Level-0 table #16: started
+2021/04/06-11:21:53.404 1d30 Level-0 table #16: 1338245 bytes OK
+2021/04/06-11:21:53.407 1d30 Delete type=0 #11
+2021/04/06-11:22:26.419 1d30 Compacting 1@1 + 1@2 files
+2021/04/06-11:22:26.437 1d30 Generated table #17@1: 2591 keys, 369687 bytes
+2021/04/06-11:22:26.437 1d30 Compacted 1@1 + 1@2 files => 369687 bytes
+2021/04/06-11:22:26.438 1d30 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/06-11:22:26.439 1d30 Delete type=2 #16
+2021/04/06-11:22:26.439 1d30 Delete type=2 #13
+2021/04/06-11:35:38.130 1e06 Level-0 table #19: started
+2021/04/06-11:35:38.142 1e06 Level-0 table #19: 823855 bytes OK
+2021/04/06-11:35:38.144 1e06 Delete type=0 #15
+2021/04/06-11:36:50.362 1e06 Compacting 1@1 + 1@2 files
+2021/04/06-11:36:50.384 1e06 Generated table #20@1: 2595 keys, 370465 bytes
+2021/04/06-11:36:50.384 1e06 Compacted 1@1 + 1@2 files => 370465 bytes
+2021/04/06-11:36:50.385 1e06 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/06-11:36:50.386 1e06 Delete type=2 #17
+2021/04/06-11:36:50.386 1e06 Delete type=2 #19
+2021/04/06-12:10:20.768 20fe Level-0 table #22: started
+2021/04/06-12:10:20.782 20fe Level-0 table #22: 900974 bytes OK
+2021/04/06-12:10:20.784 20fe Delete type=0 #18
+2021/04/06-12:13:36.022 20fe Compacting 1@1 + 1@2 files
+2021/04/06-12:13:36.041 20fe Generated table #23@1: 2762 keys, 390043 bytes
+2021/04/06-12:13:36.041 20fe Compacted 1@1 + 1@2 files => 390043 bytes
+2021/04/06-12:13:36.043 20fe compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/06-12:13:36.043 20fe Delete type=2 #22
+2021/04/06-12:13:36.043 20fe Delete type=2 #20
+2021/04/06-13:45:25.814 3f0f Level-0 table #25: started
+2021/04/06-13:45:25.832 3f0f Level-0 table #25: 835702 bytes OK
+2021/04/06-13:45:25.833 3f0f Delete type=0 #21
+2021/04/06-14:05:33.453 4175 Compacting 1@1 + 1@2 files
+2021/04/06-14:05:33.469 4175 Generated table #26@1: 2764 keys, 392040 bytes
+2021/04/06-14:05:33.469 4175 Compacted 1@1 + 1@2 files => 392040 bytes
+2021/04/06-14:05:33.470 4175 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/06-14:05:33.471 4175 Delete type=2 #25
+2021/04/06-14:05:33.471 4175 Delete type=2 #23

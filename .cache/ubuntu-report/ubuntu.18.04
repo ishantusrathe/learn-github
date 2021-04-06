@@ -1,0 +1,78 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "LENOVO",
+    "Product": "20AMS0XP0W",
+    "Family": "ThinkPad X240"
+  },
+  "BIOS": {
+    "Vendor": "LENOVO",
+    "Version": "GIET92WW (2.42 )"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "4",
+    "Threads": "2",
+    "Cores": "2",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "69",
+    "Stepping": "1",
+    "Name": "Intel(R) Core(TM) i5-4300U CPU @ 1.90GHz",
+    "Virtualization": "VT-x"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "0a16"
+    }
+  ],
+  "RAM": 7.8,
+  "Disks": [
+    240.1
+  ],
+  "Partitions": [
+    229.7
+  ],
+  "Screens": [
+    {
+      "Size": "277mmx156mm",
+      "Resolution": "1366x768",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_IN",
+  "Timezone": "Asia/Kolkata",
+  "Install": {
+    "Media": "Ubuntu 18.04.5 LTS \"Bionic Beaver\" - Release amd64 (20200806.1)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "use_device",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": true,
+    "Stages": {
+      "0": "language",
+      "1": "language",
+      "131": "console_setup",
+      "144": "wireless",
+      "178": "prepare",
+      "191": "partman",
+      "206": "start_install",
+      "216": "timezone",
+      "224": "usersetup",
+      "240": "user_done",
+      "611": "done"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+2021/04/05-17:22:04.440 2ad4 Reusing MANIFEST /home/neosoft/.config/google-chrome/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/05-17:22:04.440 2ad4 Recovering log #23
+2021/04/05-17:22:04.440 2ad4 Reusing old log /home/neosoft/.config/google-chrome/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/000023.log 
+2021/04/05-17:22:45.265 25bc Level-0 table #28: started
+2021/04/05-17:22:45.267 25bc Level-0 table #28: 15354 bytes OK
+2021/04/05-17:22:45.268 25bc Delete type=0 #23
+2021/04/05-17:22:45.268 25bc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/05-17:22:45.268 25bc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00 \xae\x02\x1e\x8awB\x00\x01V\x00i\x00m\x00g\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00l\x00i\x00n\x00u\x00x\x00i\x00z\x00e\x00.\x00c\x00o\x00m\x00/\x00i\x00c\x00o\x00n\x00s\x00/\x00i\x00c\x00o\x00n\x00_\x001\x009\x002\x00x\x001\x009\x002\x00.\x006\x00b\x005\x009\x009\x007\x00d\x002\x005\x005\x003\x008\x001\x00a\x00e\x002\x007\x004\x007\x002\x00b\x007\x008\x00f\x00c\x004\x00e\x00e\x00f\x007\x000\x002\x00.\x00p\x00n\x00g' @ 1063 : 1
+2021/04/05-17:22:45.268 25bc Compacting 1@1 + 1@2 files
+2021/04/05-17:22:45.271 25bc Generated table #29@1: 74 keys, 28720 bytes
+2021/04/05-17:22:45.271 25bc Compacted 1@1 + 1@2 files => 28720 bytes
+2021/04/05-17:22:45.273 25bc compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/05-17:22:45.274 25bc Delete type=2 #28
+2021/04/05-17:22:45.274 25bc Delete type=2 #25
+2021/04/05-17:22:45.274 25bc Manual compaction at level-1 from '\x00\x01\x01 \x03\x00 \xae\x02\x1e\x8awB\x00\x01V\x00i\x00m\x00g\x00-\x00c\x00a\x00c\x00h\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00l\x00i\x00n\x00u\x00x\x00i\x00z\x00e\x00.\x00c\x00o\x00m\x00/\x00i\x00c\x00o\x00n\x00s\x00/\x00i\x00c\x00o\x00n\x00_\x001\x009\x002\x00x\x001\x009\x002\x00.\x006\x00b\x005\x009\x009\x007\x00d\x002\x005\x005\x003\x008\x001\x00a\x00e\x002\x007\x004\x007\x002\x00b\x007\x008\x00f\x00c\x004\x00e\x00e\x00f\x007\x000\x002\x00.\x00p\x00n\x00g' @ 1063 : 1 .. (end); will stop at (end)

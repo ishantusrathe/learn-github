@@ -1,0 +1,48 @@
+{
+   "author": "PDFfiller (support@pdffiller.com)",
+   "background": {
+      "page": "pdfHandler.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "img/logo128.png",
+         "16": "img/logo16.png",
+         "48": "img/logo48.png"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "contentstyle.css", "css/style.css" ],
+      "js": [ "contentscript.js", "libs/jquery.min.js", "libs/base64.js", "libs/moment.js", "js/config.js", "js/browser.js", "js/inject.js", "js/background.js" ],
+      "matches": [ "http://*/*", "https://*/*", "ftp://*/*", "file://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Edit, e-sign, print or fax PDFs directly from search engine results and webpages with the PDFfiller extension.",
+   "file_browser_handlers": [ {
+      "default_title": "Open with PDF Viewer",
+      "file_filters": [ "filesystem:*.pdf" ],
+      "id": "open-as-pdf"
+   } ],
+   "icons": {
+      "128": "img/logo128.png",
+      "16": "img/logo16.png",
+      "48": "img/logo48.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmbc5AC1kkIQKMaVCDdCdrBDtfMAu1VuX5cARFzlkAa2X4cdvzRJhv0/NQOlTfLv5yEBjl7FAEhVsBi7ALujyXCZltJjNZVwz86e08t7XOsi8LiRsBuEdeSjYarA4zXm85OT+EPvgiOrnYygLgnWxakoMIRQUNkxgfXf3zCYAPKCN5gHzWgU/eYVkVV639PVuR/MGovpRSTDNJ/eOQ7hj+vObTunAjqrtMjs7JdkE9zk/nKza2vUCMQ9GQTwgbYh9j4l5LZ+gltUhV8HHyARgMlNTTNQ8K6swbEO443byqwYtAySO96rxz7YPkwLx8LHWT4Fz/oO1p76N7+7W86X9CwIDAQAB",
+   "manifest_version": 2,
+   "name": "PDF Editor for Chrome:Edit, Fill, Sign, Print",
+   "options_page": "options/options.html",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options/options.html"
+   },
+   "permissions": [ "storage", "tabs", "activeTab", "\u003Call_urls>", "webRequest", "webRequestBlocking", "webNavigation", "storage" ],
+   "storage": {
+      "managed_schema": "preferences_schema.json"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.5.0",
+   "web_accessible_resources": [ "content/web/viewer.html", "http:/*", "https:/*", "ftp:/*", "file:/*", "chrome-extension:/*", "blob:*", "data:*", "filesystem:/*", "drive:*", "img/*" ]
+}

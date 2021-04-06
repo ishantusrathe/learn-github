@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Components/Checkboxes/Normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-3" transform="translate(-92.000000, -101.000000)">
+            <g id="Group-31-Copy-6" transform="translate(76.000000, 38.000000)">
+                <g id="Components/Checkboxes/Selected" transform="translate(16.000000, 63.000000)">
+                    <g>
+                        <rect fill="#FF9000" x="0" y="0" width="16" height="16" rx="4"></rect>
+                        <path d="M6.93280165,9.51858809 L11.2317787,4.3598156 C11.5853428,3.9355387 12.2159075,3.87821464 12.6401844,4.23177872 C13.0644613,4.5853428 13.1217854,5.2159075 12.7682213,5.6401844 L7.77623218,11.6305713 C7.75473875,11.6569644 7.73169695,11.6825166 7.70710678,11.7071068 C7.31658249,12.0976311 6.68341751,12.0976311 6.29289322,11.7071068 C6.28989194,11.7042021 6.28695744,11.7012376 6.28404489,11.6982585 L3.29289322,8.70710678 C2.90236893,8.31658249 2.90236893,7.68341751 3.29289322,7.29289322 C3.68341751,6.90236893 4.31658249,6.90236893 4.70710678,7.29289322 L6.93280165,9.51858809 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

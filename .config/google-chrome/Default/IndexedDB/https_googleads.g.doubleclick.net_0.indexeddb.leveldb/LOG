@@ -1,0 +1,8 @@
+2021/04/06-12:53:32.725 28e5 Reusing MANIFEST /home/neosoft/.config/google-chrome/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/06-12:53:32.726 28e5 Recovering log #13
+2021/04/06-12:53:32.726 28e5 Reusing old log /home/neosoft/.config/google-chrome/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/000013.log 
+2021/04/06-12:53:39.204 28e1 Level-0 table #17: started
+2021/04/06-12:53:39.204 28e1 Level-0 table #17: 0 bytes OK
+2021/04/06-12:53:39.207 28e1 Delete type=0 #13
+2021/04/06-12:53:39.207 28e1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/06-12:53:39.207 28e1 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2021/04/05-18:07:16.957 4739 Reusing MANIFEST /home/neosoft/.config/google-chrome/Default/IndexedDB/https_www.ambitionbox.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/05-18:16:14.769 47a7 Level-0 table #5: started
+2021/04/05-18:16:14.770 47a7 Level-0 table #5: 3531 bytes OK
+2021/04/05-18:16:14.771 47a7 Delete type=0 #3
+2021/04/05-18:16:14.772 47a7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

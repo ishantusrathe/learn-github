@@ -1,0 +1,5 @@
+2021/04/05-17:58:28.326 465b Reusing MANIFEST /home/neosoft/.config/google-chrome/Default/IndexedDB/https_a4b867562fb5255407ac944256b478d3.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/05-17:58:57.581 45ca Level-0 table #5: started
+2021/04/05-17:58:57.583 45ca Level-0 table #5: 460 bytes OK
+2021/04/05-17:58:57.586 45ca Delete type=0 #3
+2021/04/05-17:58:57.586 45ca Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,32 @@
+2021/04/06-09:17:30.464 8b0 Reusing MANIFEST /home/neosoft/.config/skypeforlinux/Local Storage/leveldb/MANIFEST-000001
+2021/04/06-09:17:30.466 8b0 Recovering log #29
+2021/04/06-09:17:30.469 8b0 Level-0 table #33: started
+2021/04/06-09:17:30.475 8b0 Level-0 table #33: 72925 bytes OK
+2021/04/06-09:17:30.479 8b0 Delete type=0 #29
+2021/04/06-09:18:40.144 8b0 Level-0 table #36: started
+2021/04/06-09:18:40.148 8b0 Level-0 table #36: 72813 bytes OK
+2021/04/06-09:18:40.149 8b0 Delete type=0 #34
+2021/04/06-10:29:21.732 1666 Level-0 table #38: started
+2021/04/06-10:29:21.736 1666 Level-0 table #38: 72794 bytes OK
+2021/04/06-10:29:21.738 1666 Delete type=0 #35
+2021/04/06-11:22:30.615 1ccd Level-0 table #40: started
+2021/04/06-11:22:30.619 1ccd Level-0 table #40: 72665 bytes OK
+2021/04/06-11:22:30.621 1ccd Delete type=0 #37
+2021/04/06-11:22:30.621 1d2f Compacting 4@0 + 1@1 files
+2021/04/06-11:22:30.626 1d2f Generated table #41@0: 13 keys, 72755 bytes
+2021/04/06-11:22:30.626 1d2f Compacted 4@0 + 1@1 files => 72755 bytes
+2021/04/06-11:22:30.628 1d2f compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/04/06-11:22:30.628 1d2f Delete type=2 #36
+2021/04/06-11:22:30.628 1d2f Delete type=2 #38
+2021/04/06-11:22:30.628 1d2f Delete type=2 #31
+2021/04/06-11:22:30.628 1d2f Delete type=2 #40
+2021/04/06-11:22:30.628 1d2f Delete type=2 #33
+2021/04/06-12:18:12.170 23ad Level-0 table #43: started
+2021/04/06-12:18:12.173 23ad Level-0 table #43: 72923 bytes OK
+2021/04/06-12:18:12.175 23ad Delete type=0 #39
+2021/04/06-13:36:42.758 3c28 Level-0 table #45: started
+2021/04/06-13:36:42.763 3c28 Level-0 table #45: 72868 bytes OK
+2021/04/06-13:36:42.765 3c28 Delete type=0 #42
+2021/04/06-14:26:11.484 46af Level-0 table #47: started
+2021/04/06-14:26:11.489 46af Level-0 table #47: 72650 bytes OK
+2021/04/06-14:26:11.490 46af Delete type=0 #44

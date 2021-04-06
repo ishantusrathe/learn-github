@@ -1,0 +1,12 @@
+2021/04/05-16:08:13.402 712 Reusing MANIFEST /home/neosoft/.config/skypeforlinux/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/04/05-16:08:13.403 712 Recovering log #7
+2021/04/05-16:08:13.441 712 Reusing old log /home/neosoft/.config/skypeforlinux/IndexedDB/file__0.indexeddb.leveldb/000007.log 
+2021/04/05-16:19:01.054 c32 Level-0 table #12: started
+2021/04/05-16:19:01.083 c32 Level-0 table #12: 1221678 bytes OK
+2021/04/05-16:19:01.086 c32 Delete type=0 #7
+2021/04/05-16:46:14.298 2144 Compacting 1@1 + 1@2 files
+2021/04/05-16:46:14.317 2144 Generated table #13@1: 1832 keys, 278796 bytes
+2021/04/05-16:46:14.317 2144 Compacted 1@1 + 1@2 files => 278796 bytes
+2021/04/05-16:46:14.318 2144 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/05-16:46:14.319 2144 Delete type=2 #9
+2021/04/05-16:46:14.319 2144 Delete type=2 #12

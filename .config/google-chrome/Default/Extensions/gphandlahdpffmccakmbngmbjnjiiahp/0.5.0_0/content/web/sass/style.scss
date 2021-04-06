@@ -1,0 +1,582 @@
+@import "variables";
+
+body {
+  background-color: $bg;
+}
+
+.pdfViewer {
+  background-color: $bg;
+}
+
+.canvasWrapper {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 #565656;
+}
+
+#toolbarContainer {
+  height: 48px;
+  background: $gray;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+#toolbarViewer, #toolbarViewerLeft, #toolbarViewerRight, #toolbarViewerMiddle {
+  height: 48px;
+}
+
+#viewerContainer {
+  top: 48px;
+}
+
+.loadingInProgress {
+  #errorWrapper {
+    top: 53px;
+  }
+}
+
+.toolbarButton {
+  width: 32px;
+  height: 32px;
+  margin: 8px;
+  @include button;
+
+  &#sidebarToggle {
+    &::before {
+      content: url(../images/ui/sidebar.svg);
+      left: 8px;
+      top: 8px;
+    }
+  }
+
+  &.pageUp {
+    margin-right: 1px;
+    &::before {
+      top: 9px;
+      left: 10px;
+      content: url(../images/ui/arrow-up.svg);
+    }
+  }
+
+  &.pageDown {
+    margin-left: 1px;
+    &::before {
+      top: 9px;
+      left: 10px;
+      content: url(../images/ui/arrow-down.svg);
+    }
+  }
+
+  &.zoomOut {
+    margin-right: 1px;
+
+    &::before {
+      top: 7px;
+      left: 10px;
+      content: url(../images/ui/zoom-out.svg);
+    }
+  }
+
+  &.zoomIn {
+    margin-left: 1px;
+
+    &::before {
+      top: 11px;
+      left: 10px;
+      content: url(../images/ui/zoom-in.svg);
+    }
+  }
+
+  &.presentationMode {
+    margin-left: 4px;
+
+    &::before {
+      top: 8px;
+      left: 8px;
+      content: url(../images/ui/full-screen.svg);
+    }
+  }
+
+  &#secondaryToolbarToggle {
+    &::before {
+      top: 10px;
+      left: 10px;
+      content: url(../images/ui/more.svg);
+    }
+  }
+
+  &.print {
+    margin-left: 16px;
+    margin-right: 1px;
+
+    &::before {
+      top: 8px;
+      left: 8px;
+      content: url(../images/ui/print.svg);
+    }
+  }
+
+  &.download {
+    margin-left: 1px;
+    margin-right: 1px;
+
+    &::before {
+      top: 8px;
+      left: 8px;
+      content: url(../images/ui/download.svg);
+    }
+  }
+
+  &.bookmark {
+    margin-left: 1px;
+    margin-right: 4px;
+
+    &::before {
+      top: 8px;
+      left: 8px;
+      content: url(../images/ui/favorites.svg);
+    }
+  }
+
+  &.findPrevious {
+    margin-left: 1px;
+    margin-right: 1px;
+
+    &::before {
+      top: 9px;
+      left: 10px;
+      content: url(../images/ui/arrow-up.svg);
+    }
+  }
+
+  &.findNext {
+    margin-left: 1px;
+    margin-right: 1px;
+
+    &::before {
+      top: 9px;
+      left: 10px;
+      content: url(../images/ui/arrow-down.svg);
+    }
+  }
+}
+
+.secondaryToolbarButton {
+  &.print {
+    &::before {
+      content: url(../images/ui/print.svg);
+    }
+  }
+
+  &.download {
+    &::before {
+      content: url(../images/ui/download.svg);
+    }
+  }
+
+  &.bookmark {
+    &::before {
+      content: url(../images/ui/favorites.svg);
+    }
+  }
+}
+
+.toolbarField {
+  height: 24px;
+  width: 36px;
+  background-color: #fff;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  color: #414141;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 8px 6px 8px 0;
+
+  &:hover {
+    background-color: #fff;
+  }
+
+  &:focus {
+    background-color: #fff;
+  }
+}
+
+.toolbarLabel {
+  font-size: 14px;
+  color: #dddddd;
+  margin: 13px 0;
+}
+
+#viewFind.toolbarButton {
+  margin-left: 28px;
+
+  &::before {
+    content: url(../images/ui/search.svg);
+    left: 8px;
+    top: 8px;
+  }
+}
+
+#viewThumbnail.toolbarButton {
+  position: relative;
+
+  &::before {
+    content: url(../images/ui/thumbnails.svg);
+    left: 8px;
+    top: 8px;
+  }
+}
+
+#viewOutline.toolbarButton {
+  position: relative;
+
+  &::before {
+    content: url(../images/ui/elements.svg);
+    left: 8px;
+    top: 8px;
+  }
+}
+
+#viewAttachments.toolbarButton {
+  position: relative;
+
+  &::before {
+    content: url(../images/ui/attachments.svg);
+    left: 8px;
+    top: 8px;
+  }
+}
+
+.dropdownToolbarButton {
+  min-width: 152px;
+  max-width: 152px;
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  margin: 8px 8px 8px 4px;
+  position: relative;
+
+  & > select {
+    color: #414141;
+    background: transparent;
+    height: 32px;
+  }
+}
+
+.button {
+  padding: 7px 10px;
+  margin: 8px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.button-accent {
+  border-color: #ff8615;
+  background: #ff9000;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#ffa300),to(#f70));
+  background-image: -webkit-linear-gradient(#ffa300,#f70);
+  background-image: -o-linear-gradient(#ffa300 0,#f70 100%);
+  background-image: linear-gradient(#ffa300,#f70);
+  color: #fff;
+
+  &:hover {
+    background: #ff9e21;
+  }
+}
+
+.button-w-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.button-icon {
+  margin-right: 6px;
+  height: 16px;
+  width: 16px;
+  background-size: contain;
+  display: inline-block;
+
+  &.fill {
+    background-image: url(../images/ui/fill.svg);
+  }
+}
+
+#sidebarContainer {
+  top: 48px;
+  width: 248px;
+  z-index: 99999;
+  left: -248px;
+}
+
+#toolbarSidebar {
+  height: 48px;
+  background-color: #444444;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 #565656;
+}
+
+#sidebarContent {
+  top: 48px;
+  background-color: #323232;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.secondaryToolbar {
+  background-color: #444;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 #565656;
+  padding-bottom: 4px;
+}
+
+.horizontalToolbarSeparator {
+  background-color: $bg;
+}
+
+.doorHanger:after,
+.doorHangerRight:after {
+  border-bottom-color: #444;
+  border-width: 8px;
+}
+
+.doorHanger:before,
+.doorHangerRight:before {
+  border-bottom-color: rgba(255,255,255,0.17);
+  border-width: 9px;
+}
+#presentationMode {
+  display: inherit;
+}
+#secondaryPresentationMode {
+  display: none !important;
+}
+
+.secondaryToolbarButton {
+  color: #fff;
+  margin: 8px;
+  border-radius: 3px;
+  width: calc(100% - 16px);
+  padding: 8px 8px 8px 32px;
+  text-align: left;
+
+  &:hover {
+    background-color: rgba($dark-gray, .5);
+
+    &[disabled] {
+      background: none;
+    }
+  }
+
+  &::before {
+    left: 8px;
+    top: 7px;
+  }
+
+  &.firstPage {
+    &::before {
+      top: 15px;
+      content: url(../images/ui/first-page.svg);
+    }
+  }
+
+  &.lastPage {
+    &::before {
+      top: 15px;
+      content: url(../images/ui/last-page.svg);
+    }
+  }
+
+  &.rotateCcw {
+    &::before {
+      top: 15px;
+      content: url(../images/ui/rotate-left.svg);
+    }
+  }
+
+  &.rotateCw {
+    &::before {
+      top: 15px;
+      content: url(../images/ui/rotate-right.svg);
+    }
+  }
+
+  &.selectTool {
+    &::before {
+      top: 15px;
+      content: url(../images/ui/cursor-arrow.svg);
+    }
+  }
+
+  &.handTool {
+    &::before {
+      content: url(../images/ui/cursor-pointer.svg);
+    }
+  }
+
+  &.documentProperties {
+    &::before {
+      content: url(../images/ui/info.svg);
+    }
+  }
+}
+
+.findbar {
+  z-index: 99999;
+  height: 95px;
+  width: 300px;
+  left: 76px;
+  top: 42px;
+  border-radius: 4px;
+  background-color: #444444;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 #565656;
+}
+#findbarMessageContainer {
+  display: none;
+}
+
+#findInput {
+  width: 202px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #aaaaaa;
+  color: #959595;
+  margin: 8px 1px 8px 8px;
+}
+
+#findHighlightAll, #findMatchCase {
+  width: 20px;
+  position: static;
+  margin: 0;
+}
+
+#findbarInputContainer, #findbarOptionsContainer {
+  height: auto;
+
+  .toolbarLabel {
+    margin: 0;
+  }
+}
+
+#findbarOptionsContainer {
+  padding: 8px;
+}
+
+#findInput.notFound {
+  border-color: #e15554;
+}
+
+#findResultsCount {
+  position: absolute;
+  left: 146px;
+  top: 13px;
+  background: none;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #959595;
+  z-index: 1000000000;
+  width: 66px;
+  text-align: right;
+}
+
+@media all and (max-width: 900px) {
+  #toolbarViewerMiddle {
+    top: 50px;
+  }
+
+  #viewerContainer {
+    top: 102px;
+  }
+}
+
+@media (min-width: 700px) {
+  #secondaryToolbarButtonContainer {
+    .horizontalToolbarSeparator.first {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 535px) {
+  #toolbarViewerMiddle {
+    width: auto;
+    transform: none;
+    left: 0;
+  }
+}
+
+// checkbox
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute !important;
+  top: 3px;
+  left: 3px;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 16px;
+  height: 16px;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/ui/checkbox.svg);
+}
+
+#overlayContainer > .container > .dialog {
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  background-color: #444;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.25), 0 -1px 0 0 #565656;
+}
+
+.dialog {
+  padding: 8px 0;
+
+  .separator {
+    background-color: $bg;
+  }
+
+  .row {
+    span {
+      padding-left: 8px;
+    }
+    p {
+      padding-right: 8px;
+    }
+  }
+}
+
+.overlayButton {
+  color: #fff;
+}
+
+#viewOutline, #viewBookmark {
+  display: none !important;
+}
